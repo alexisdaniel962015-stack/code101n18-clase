@@ -57,6 +57,8 @@ nav a:hover {
   color: #1e9bf5;
   text-decoration: underline;
 }
+
+
 /* Navegación en móviles */
 @media (max-width: 768px) {
   nav ul {
@@ -88,6 +90,7 @@ body{
    background: linear-gradient(blue, red);
     color: #f2f2f2;
     font-family: "Montserrat",sans-serif;
+    font-size: 1.3rem;
 }
 
 h1, h2, h3, h4, h5, h6, p{
@@ -102,6 +105,7 @@ h2{
 }
 /* Presentación con Grid */
 .presentacion {
+  min-height: 70vh; 
   display: grid;
   grid-template-columns: 300px 1fr; /* imagen fija + texto flexible */
   gap: 20px;
